@@ -1,0 +1,62 @@
+# nba_api结构
+
+nab_api结构
+
+* stats
+  * players
+  * teams
+  * endpoints
+    * assisleaders
+    * comonplayinfo
+    * leadguedashstats
+* live
+* library
+
+# NBA术语
+
+得分
+
+* 罚篮(Free Throw)
+  * FTA
+  * FTM
+  * FT_PCT
+* 三分(Three Point Field Goal)
+  * FG3A:Three-point Field Goals Attempted 三分出手次数
+  * FG3M:three-point filed Goals Made 三分命中次数
+  * FG3%:三分命中率，Three-point Field Goal Percentage
+* FGM:Field Goals Made 得分球数
+* AST:assists助攻ing
+* FGA:Field goals Attempted出手次数
+* STL:steal 抢断
+* PTS：points得分
+
+篮板
+
+* DREB：防守篮板Defensive Rebounds
+* OREB：offensive Rebounds进攻篮板
+* BLK：blocks盖帽
+
+失误与犯规
+
+* TOV：TrunOvers失误
+* PF:personal Fouls
+* PFS:personal fouls suffered 被犯规
+
+# 备注
+
+venv：python标准库中的虚拟环境管理工具
+
+Poetry是基于Vrtuallenv再次开发，部署的话需要requirements.txt文件作为支撑依赖。
+
+git：
+
+* 提交Commit：代码保存到本地仓库代码
+* 推送Push：上传到远程代码仓库
+
+# 参考
+
+[球员抢断数据查询](https://www.volcengine.com/theme/7249635-R-7-1)
+
+[nba_api教程](https://www.playingnumbers.com/2019/12/how-to-get-nba-data-using-the-nba_api-python-module-beginner/)
+
+[python虚拟环境选择](https://pyloong.github.io/pythonic-project-guidelines/introduction/virtualenv/#22-conda)
